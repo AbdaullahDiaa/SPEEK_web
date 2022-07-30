@@ -1,0 +1,267 @@
+  body{
+       
+    background-image: url("../img/731702a3.jpg");
+        background-size:cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        /* background-color: #00bcd4; */
+
+}
+
+
+  
+  .contner{
+
+
+        width: 70vw;
+        height: 90vh;
+        margin: 5vh  auto;
+         display: flex;
+         flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        
+    }
+.cant{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00bcd4;
+}
+#but{
+
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: none;
+     background-image: linear-gradient( 170deg, #bdfef8 ,#bdfef8,#507df9,#a152f5);
+        color: #111;
+        font-size: 20px;
+        box-shadow: 0px 1px 10px 1px rgba(17, 17, 17, 0.413);
+        transition: 0.5s ease;
+        font-weight: 600;
+    
+}
+#but:hover{
+    transform: scale(1.05);
+}
+
+form{
+    margin-top: 150PX;  
+      width: 700px;
+          border: none;
+
+}
+#text {
+            margin-top: 00px;
+    
+        padding: 15px 10px;
+     box-sizing: border-box;
+    width: 100%;
+    height: 380px;
+    border-radius: 10px;
+    border: none;
+    color: #111;
+    font-size: 20px;
+    resize: none;
+    direction: rtl;
+    background-color: rgba(28, 122, 205, 0);
+        font-family: 'Amiri', serif;
+    font-weight: 800;
+    
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #686767;
+}
+.contt{
+    position: absolute;
+    left: 0;
+    top:30vh;    
+     width: 100px;
+}
+li{
+     list-style: none; 
+     display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contt li{
+     
+  margin-top: 20px;
+  font-size: 20px;
+   width: 50px;
+    height: 50px;
+      background-image: linear-gradient(#00bcd4,#2196f3,#507df9);
+      border-radius: 50px;
+              box-shadow: 0px 1px 10px 1px rgba(17, 17, 17, 0.413),inset 1px 1px 1px #00bcd4;
+
+
+}
+.contt li a{
+ color: aliceblue;
+    
+}
+
+
+.nav ul {
+    position:absolute;
+    top: 10px;
+    right: 80px;
+    width: 300px;
+    display: flex;
+      border-radius: 10px;
+    height: 80px;
+
+       background-color: rgb(202, 201, 201);
+            background-image: linear-gradient(#bdfef8 ,#507df9 20%,#507df9 80%);
+
+
+
+}
+.nav li  {
+    height: 80px;
+
+    width: 100%;
+
+   color: rgb(255, 255, 255);
+   background-color: #a152f5;
+               background-image: linear-gradient(#d696e1 ,#a152f5 20%,#a152f5 80%);
+
+   font-size: 20px;
+
+}
+.nav li:nth-child(3)  {
+     border-radius: 0px 10px 10px 0;
+    box-shadow: 12px 4px 13px 1px rgb(17 17 17 / 41%);
+
+
+}
+.lyer {
+    
+     position:absolute;
+     top: 30px;
+     right: 7px;
+     color: #fcfcfc;
+              transition: 0.9s ease;
+              
+
+    
+    }
+      .lyer:hover  {
+  transform: translateX(-150px) ;
+         transition: 0.9s ease;
+        }
+
+
+.gif{
+    position: absolute;
+    width: 100px;
+    left: 300px;
+    top: -120px;
+    
+}
+#img1{
+    display: none;
+}
+.contner1{
+   width: 70vw;
+        height: 90vh;
+        margin: 5vh  auto;
+         display: flex;
+         flex-direction: column;
+          justify-content: center;
+          align-items: center;    
+}
+
+@media screen and (max-width: 600px) {
+    body {
+         background-image: url('../img/80225.jpg');
+                    background-size:cover;
+                    background-repeat: repeat;
+        max-width: 600px
+
+  }
+    .gif{
+        position: fixed;
+    left: -200px;
+    top: -120px;
+    }
+ .contt{
+    left: -30px;
+}
+    
+  #text {
+            margin: 10px 200px;
+    
+    max-width: 50%;
+    height: 380px;
+    background-color: rgba(255, 255, 255, 0.635);
+              box-shadow: 0px 1px 10px 1px rgba(17, 17, 17, 0.413),inset 1px 1px 1px #48494a;
+
+    
+    
+}
+#but{
+    width: 100px;
+    height: 100px;    
+
+}
+} 
+ @media screen and (min-width:601px) and (max-width:1200px) {
+    body {
+         background-image: none;
+         background-image: url('../img/80225.jpg');
+            max-width:1200px;
+
+           
+
+  }
+  .gif{
+            position: absolute;
+    left: 0px;
+    top: -120px;
+    
+}
+    
+  #text {
+            margin: 10px 100px;
+    
+    max-width: 80%;
+    height: 380px;
+     background-color: rgba(255, 255, 255, 0.635);
+              box-shadow: 0px 1px 10px 1px rgba(17, 17, 17, 0.413),inset 1px 1px 1px #48494a;
+
+    
+}
+
+#but{
+    padding: 10px;
+        margin: 20px 20px 0 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+
+      color: #fff;
+    
+}
+.contt{
+    left: -30px;
+    
+}
+
+.nav ul {
+    right: 30px;
+
+    
+}
+
+}
